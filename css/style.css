@@ -1,0 +1,49 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 960px;
+    margin: auto;
+}
+
+
+header nav {
+    background-color: gray;
+    width: 1000px;
+}
+
+body section:first-of-type img {
+    margin-right: 3%;
+    padding: 20px;
+}
+
+body section p {
+    overflow: scroll;
+    height: 300px;
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
+}
+
+body section button {
+    background-color: black;
+    color:white;
+
+}
+body header nav a {
+    padding: 24px;
+}
+body section div {
+width: 400px;
+float: right;
+height: 480px;
+}
+
+body section:nth-child(3) {
+    padding: 20px 20px;
+    margin-right: 1%;
+}
